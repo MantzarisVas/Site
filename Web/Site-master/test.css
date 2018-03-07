@@ -1,0 +1,49 @@
+
+ul {
+	list-style: none;padding: 0px;margin: 0px;}
+ul li {display: block;position: relative;float: left;border:1px solid #000}
+li ul {display: none;}
+ul li a {display: block;background: #000;padding: 5px 10px 5px 10px;text-decoration: none;
+				 white-space: nowrap;color: #fff;}
+ul li a:hover {background: #4A3F99;}
+li:hover ul {display: block; position: centered;}
+li:hover li {float: none;}
+li:hover a {background: #4A3F99;}
+li:hover li a:hover {background-color: #474747}
+#drop-nav li ul li {border-top: 10px;}
+body {
+  background-image: url(background_image2.jpg);
+  background-position: center center;
+  font-family: "verdana";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1{
+	color: green;
+}
+
+p{
+	color:#7D2F6C;
+	font-size: 60px;
+	align:center;
+}
+em{
+	font-size: 70px;
+	color:#037821;
+	align:center;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
