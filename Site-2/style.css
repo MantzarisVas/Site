@@ -152,3 +152,27 @@ div ul li ul li {
   position: relative;
   left: -12px;
 }
+
+
+
+table {
+    position: absolute;
+    border-collapse: collapse;
+    padding: 50px 50px;
+    width: 10px;
+    height: 10px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr{
+  background-color: #f2f2f2;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
